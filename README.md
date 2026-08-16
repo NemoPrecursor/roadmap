@@ -4,7 +4,9 @@ A self-contained, single-file study tracker for moving from IT support into plat
 
 **Live page:** https://nemoprecursor.github.io/roadmap/
 
-The page is encrypted. Opening it without the passphrase shows a lock screen and nothing else — the content is not in the page source.
+The page is encrypted. Opening it without a passphrase shows a lock screen and nothing else — the content is not in the page source.
+
+There are two passphrases. The owner's unlocks the full tracker. A guest one opens a read-only view: no ticking, no glossary tooltips, no calendar, no saved progress, and the owner's private notes-to-self omitted — not hidden with CSS, but absent from the ciphertext the guest passphrase can open.
 
 ---
 
@@ -27,7 +29,7 @@ CompTIA A+ and the CCNA were considered and deliberately left out — A+ certifi
 
 One HTML file. No build step, no dependencies, no framework, no backend.
 
-- **Encryption** — the roadmap data is AES-256-GCM ciphertext with a PBKDF2-SHA256 key (250,000 iterations), decrypted in the browser via the Web Crypto API. This is what makes it safe to host publicly on GitHub Pages, which cannot serve private sites on a free account.
+- **Encryption** — the roadmap is encrypted once under a random AES-256-GCM data key. That data key is then wrapped separately for each passphrase using PBKDF2-SHA256 at 250,000 iterations, so two passphrases unlock one copy of the content rather than the file carrying it twice. Which wrapper opened also determines the access level. All of it happens in the browser via the Web Crypto API, which is what makes the page safe to host publicly on GitHub Pages — free accounts cannot serve private sites.
 - **Progress** — ticking a task writes a compact code into the URL fragment. The address bar *is* the save file, so copying the link to another device carries progress with it. A local copy is also kept per browser as a convenience.
 - **Pace tracking** — the page compares today's date against the schedule and reports whether the plan is on track, slightly behind, or far enough behind that the exam date should move.
 - **Calendar** — ticking a task offers a prefilled Google Calendar event for that evening's study session, so the pace figures reflect sessions actually done rather than intentions.
