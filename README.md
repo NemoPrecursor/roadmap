@@ -14,15 +14,16 @@ There are two passphrases. The owner's unlocks the full tracker. A guest one ope
 
 A 70-week plan running August 2026 to December 2027 at 5–7 hours a week, built against a real job posting: Y TREE's *Platform Engineer (Mid) – AWS, Kubernetes & IaC*, which names **Kubernetes, Terraform and AWS** as its requirements.
 
-| Weeks | Stage | Ends with |
+| Weeks | Stage | Milestone |
 |---|---|---|
 | 1–15 | CompTIA Network+ (N10-009) | Exam, 23 Nov 2026 |
 | 16–29 | CompTIA Security+ (SY0-701) | Exam, 1 Mar 2027 |
-| 30–44 | Linux, containers and your own infrastructure | Portfolio checkpoint, 10 May 2027 |
+| 30–39 | Linux, shell, Git, Docker | Portfolio checkpoint, 10 May 2027 |
+| 40–44 | Proxmox, Terraform, Ansible | Infrastructure checkpoint, 14 Jun 2027 |
 | 45–56 | AWS | Solutions Architect Associate, 6 Sep 2027 |
 | 57–70 | Kubernetes | CKA, 13 Dec 2027 |
 
-179 tasks, about 190 hours of planned work.
+Weeks 30–44 form one stage in the page itself; the table splits them because they carry two separate checkpoints. 180 tasks, about 198 hours of planned work, and no gap of more than 15 weeks between milestones.
 
 Every week has a plain-English explanation of the concepts, numbered tasks with time estimates, direct links to the study material, a hands-on lab, and a workplace action. 33 of the fiddlier tasks carry step-by-step instructions and a note on why they are worth doing.
 
