@@ -614,10 +614,11 @@ function calUrl(weekIdx,tasks){
   if(tasks&&tasks.length)body+='\n\nWorked on:\n• '+tasks.join('\n• ');
   if(w.lab)body+='\n\nLab: '+w.lab.replace(/<[^>]*>/g,'');
   body+='\n\nRoadmap: '+location.href;
-  return 'https://calendar.google.com/calendar/u/'+encodeURIComponent(CAL_ACCOUNT)+'/r/eventedit'+
+  return 'https://calendar.google.com/calendar/r/eventedit'+
     '?text='+encodeURIComponent(title)+
     '&dates='+stamp(t[0])+'/'+stamp(t[1])+
     '&ctz=Europe/London'+
+    '&authuser='+encodeURIComponent(CAL_ACCOUNT)+
     '&details='+encodeURIComponent(body);
 }
 
