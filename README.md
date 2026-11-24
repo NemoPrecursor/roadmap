@@ -12,17 +12,17 @@ There are two passphrases. The owner's unlocks the full tracker. A guest one ope
 
 ## What it is
 
-A 74-week plan running August 2026 to January 2028 at 5–7 hours a week, built against a real job posting: Y TREE's *Platform Engineer (Mid) – AWS, Kubernetes & IaC*, which names **Kubernetes, Terraform and AWS** as its requirements.
+A 74-week plan running November 2026 to April 2028 at 5–7 hours a week, built against a real job posting: Y TREE's *Platform Engineer (Mid) – AWS, Kubernetes & IaC*, which names **Kubernetes, Terraform and AWS** as its requirements.
 
 | Weeks | Stage | Milestone |
 |---|---|---|
 | 1–4 | CompTIA A+ (220-1201 / 220-1202) | Core 1 & Core 2 exams |
-| 5–19 | CompTIA Network+ (N10-009) | Exam, 21 Dec 2026 |
-| 20–33 | CompTIA Security+ (SY0-701) | Exam, 29 Mar 2027 |
-| 34–43 | Linux, shell, Git, Docker | Portfolio checkpoint, 7 Jun 2027 |
-| 44–48 | Proxmox, Terraform, Ansible | Infrastructure checkpoint, 12 Jul 2027 |
-| 49–60 | AWS | Solutions Architect Associate, 4 Oct 2027 |
-| 61–74 | Kubernetes | CKA, 10 Jan 2028 |
+| 5–19 | CompTIA Network+ (N10-009) | Exam, 29 Mar 2027 |
+| 20–33 | CompTIA Security+ (SY0-701) | Exam, 5 Jul 2027 |
+| 34–43 | Linux, shell, Git, Docker | Portfolio checkpoint, 13 Sep 2027 |
+| 44–48 | Proxmox, Terraform, Ansible | Infrastructure checkpoint, 18 Oct 2027 |
+| 49–60 | AWS | Solutions Architect Associate, 10 Jan 2028 |
+| 61–74 | Kubernetes | CKA, 17 Apr 2028 |
 
 Weeks 34–48 form one stage in the page itself; the table splits them because they carry two separate checkpoints. 190 tasks, about 210 hours of planned work, and no gap of more than 15 weeks between milestones.
 
